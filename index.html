@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页 |寒梅公益</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/shutter.css" />
+	</head>
+	<body>
+		<div class="banner">
+			<div class="logo wapper">		
+			</div>
+		</div>
+		<div class="nav">
+			<div class="items wapper inline">
+				<a href="index.html" class="item active">首页</a>
+				<a href="news.html" class="item">慈善动态</a>
+				<a href="info.html" class="item">信息公布</a>
+				<a href="hear.html" class="item">听见你的声音</a>
+				<a href="volunteer.html" class="item">志愿者 | 会员</a>
+				<a href="#" class="item">捐赠</a>
+				<a href="#" class="item">义卖</a>
+				<a href="about.html" class="item last-item">关于我们</a>
+			</div>
+		</div>
+		<div class="main-content wapper">
+			<div class="shutter">
+				<div class="shutter-img">
+				  <a href="#" data-shutter-title="Iron Man"><img src="img/a1.png" alt="#"></a>
+				  <a href="#" data-shutter-title="Super Man"><img src="img/a2.png" alt="#"></a>
+				  <a href="#" data-shutter-title="The Hulk"><img src="img/a3.png" alt="#"></a>
+				   <a href="#" data-shutter-title="The your"><img src="img/a4.png" alt="#"></a>
+				</div>
+				<ul class="shutter-btn">
+				  <li class="prev"></li>
+				  <li class="next"></li>
+				</ul>
+				<div class="shutter-desc">
+				  <p>Iron Man</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="title">慈善动态 <span class="right"><a href="#">更多>></a></span></div>
+				<div class="content">
+					<ul class="items">
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="box">
+				<div class="title">信息公开 <span class="right"><a href="#">更多>></a></span></div>
+				<div class="content">
+					<ul class="items">
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="box">
+				<div class="title">义卖商品 <span class="right"><a href="#">更多>></a></span></div>
+				<div class="content">
+					<ul class="items">
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="box">
+				<div class="title">捐赠记录 <span class="right"><a href="#">更多>></a></span></div>
+				<div class="content">
+					<ul class="items">
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+						<li>test1<span class="right">2018-11-12</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="content wapper">
+				<div class="slice">
+					<div class="title">成都寒梅公益服务中心</div>
+					<div>成都市民政局正式核准的民办非盈利企业组织，服务范围包括帮扶残障儿童教育，支持贫苦学生，关爱弱势群体等。</div>
+				</div>
+				
+				<div class="slice">
+					<div class="title">友情链接</div>
+					<div>
+						<ul>
+							<li>浙江新华爱心教育基金会</li>
+							<li>中国公益慈善总会</li>
+							<li>腾讯公益</li>
+						</ul>
+					</div>
+				</div>
+				<div class="slice focus">
+					<div class="title">关注我们</div>
+					<div>
+						<ul class="items">
+						<li><img src="img/1542784580.png" width="100px" height="100px"/><div>微信</div></li>
+						<li><img src="img/1542784580.png" width="100px" height="100px"/><div>微博</div></li>
+						<!--<li><img src="img/portal-log.jpg" width="100px" height="100px"/><div>Facebook</div></li>
+						<li><img src="img/portal-log.jpg" width="100px" height="100px"/><div>Twitter</div></li>-->
+					</ul>
+					</div>
+				</div>
+				
+				<div class="copy">
+					&copy;<a href="index.html">成都寒梅公益服务中心</a> · <a href="copy.html">版权与使用限制</a> · <a href="private.html">隐私政策</a> · 蜀ICP7893412-1
+				</div>
+			</div>
+		</div>
+		<script language="JavaScript">
+			var _footer = document.getElementsByClassName("footer")[0];
+			if(_footer.offsetHeight+_footer.offsetTop<window.innerHeight){
+				_footer.style.position='absolute';
+			}
+		</script>
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="js/velocity.js"></script>
+		<script src="js/shutter.js"></script>
+		<script>
+		$(function () {
+		  $('.shutter').shutter({
+			shutterW: $(".wapper").width(), // 容器宽度
+			shutterH: 358, // 容器高度
+			isAutoPlay: true, // 是否自动播放
+			playInterval: 3000, // 自动播放时间
+			curDisplay: 3, // 当前显示页
+			fullPage: false // 是否全屏展示
+		  });
+		});
+		</script>
+	</body>
+</html>
